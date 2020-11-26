@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<center>
+		<title>Kurs Mata Uang</title>
+		<link rel="stylesheet" type="text/css" href="stylekurs.css">
+		<script src="js/kurs.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<!-- Header Form -->
+			<div>
+  				<div >
+    				<h2>KURS MATA UANG</h2>
+  				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<center>
+			<!-- Form Kurs -->
+				<input onkeyup="kurs()" type="text" id="nilai" name="nilai" placeholder="Nilai Mata Uang">
+ 					<center>
+					 <br>
+							<select onchange="kurs()" name="kurs" id="kurs">
+								<option value="0">PILIH MATA UANG</option>
+								<option value="1">Dollar US</option>
+								<option value="2">Dollar Singapore</option>
+								<option value="3">Ringgit</option>
+								<option value="4">Yen</option>
+								<option value="5">Euro</option>
+								<option value="6">Riyal</option>
+						</select>
+					<center>
+					<br>
+				<input type="text" disabled="" id="rupiah" name="rupiah" placeholder="Nilai Rupiah">
+	
+		</div>
+	</body>
+</html>

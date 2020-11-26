@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: linear-gradient(#87ceeb, #47b8d4, #80cee1);
+	background-repeat: #47b8d4 ;
+}
+
+h2{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+	color: #000000;
+	font-weight: bold;
+	margin-left: 160px;
+	padding-top: 10px;
+}
+
+h6{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #7E7E7E;
+	font-weight: bold;
+	margin-left: 75px;
+	padding-top: 10px;
+}
+
+.kerangka1{
+	width: 300px;
+	background-color: #FFFFFF;
+	margin: 20px auto auto auto;
+	border-radius: 10px;
+}
+
+.kerangka{
+	width: 500px;
+	background-color: #FFFFFF;
+	margin: 20px auto auto auto;
+	border-radius: 10px;
+}
+
+
+.header{
+	width: 100%;
+	height: 50px;
+}
+
+.form{
+	width: 100%;
+	height: 250px;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 75%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	text-align: center;
+}
+
+.tombol_login{
+	background: linear-gradient(#000046, #1cb5e0);
+	color: white;
+	font-size: 12pt;
+	width: 75%;
+	margin-left: 60px;
+	margin-top: 60px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+
+.tabel{
+	margin-left: 50px;
+	height: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #7E7E7E;
+}
+
+.h2home{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	color: #000000;
+	font-weight: bold;
+	margin-left: 130px;
+	padding-top: 10px;
+}
+
+.gmbr{
+	width: 100%;
+	height: auto;
+}
